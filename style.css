@@ -272,6 +272,9 @@ nav ul li a > .cart{
 /*============================================ footer end  ============================================*/
 /*====================================== style for mobile media query start ==================================== */
 @media only screen and (max-width:576px) {
+    .container{
+        width: 100%;
+    }
     /* header area start  */
     .container{
         width: 100%;
@@ -314,20 +317,24 @@ nav ul li a > .cart{
     .banner-btn > button{
         width: 194px;
     }
-   
-    .right-banner{
-        width:90%;
-        
-       
-       
-    }
-    
     .left-banner{
-        width: 95%;
-        
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
+        
+    }
+   
+    .right-banner{
+        width:100%;
+        height: 400px;
+         
+    }
+    
+    .left-banner{
+        width: 100%;
+        height: auto;
+
        
     
     }
