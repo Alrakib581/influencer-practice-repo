@@ -109,3 +109,63 @@ nav ul li a > .cart{
     border-top: 1px solid #f3eeee;
     border-bottom: 1px solid #f3eeee;
 }
+/*======================== card section start ==================*/
+#collection-section{
+    width: 100%;
+}
+.common-h3{
+    text-align: center;
+    font-size: 28px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+.main-card-container{
+    width: 1047px;
+    margin: 40px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+   justify-items: center;
+}
+.card-container{
+    width: 330px;
+    height: 476px;
+    border-radius: 5px;
+    border: 1px solid #f3eeee;
+}
+.card-img{
+    margin: 17px 15px;
+}
+.card-img > img{
+    width: 300px;
+    height: 256px;
+    border-radius: 5px;
+}
+.card-heading >h3{
+    font-size: 28px;
+    font-weight: 500;
+    margin: 6px 0px 4px 15px;
+    color: #18191f;
+}
+.card-pricing >h4{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Anek Bangla', sans-serif;
+    margin-left: 15px;
+}
+.card-ratings{
+    margin-left: 15px;
+}
+.card-ratings i{
+    font-size: 16px;
+    color: #fb8200;
+}
+.rat-num{
+    color: #5e6366;
+}
+.card-para > p{
+    font-size: 14px;
+    font-weight: 700;
+    color: #787885;
+    margin-left: 15px;
+}
